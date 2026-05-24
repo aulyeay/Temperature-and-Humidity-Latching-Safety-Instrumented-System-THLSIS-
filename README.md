@@ -66,7 +66,7 @@ Microcontroller: ESP32-S3-DevKitC-1 — Xtensa LX7 dual-core, 240 MHz, 512 KB SR
 
 ## Block Diagram
 
-![Function Block Diagram](figures/Blockdiagram.png)
+![Function Block Diagram](figures/blockdiagram.png)
 
 The system receives input from the DHT11 sensor (AI = GPIO4) and the reset button (DI = GPIO0), processed by the ESP32-S3. Two comparators run in parallel: one for the Warning threshold (≥26°C) and one for the Trip SIS threshold (≥30°C). Each comparator feeds its own SR Latch. The outputs drive the LED alarm (GPIO2) and relay actuator (GPIO10), with all readings streamed via UART for monitoring.
 
@@ -74,7 +74,7 @@ The system receives input from the DHT11 sensor (AI = GPIO4) and the reset butto
 
 ## Flowchart
 
-![Algorithm Flowchart](figures/Flowchart.png)
+![Algorithm Flowchart](figures/flowchart.png)
 
 On each cycle, the firmware first checks the reset button. If pressed, both SR Latches are cleared. Otherwise, the DHT11 sensor is read and validated. The temperature value is compared against both thresholds and passed through the N-Voter counter logic. If a counter reaches 3, the corresponding SR Latch is set. Actuator outputs are applied and data is sent via UART before the next 2-second polling cycle begins.
 
