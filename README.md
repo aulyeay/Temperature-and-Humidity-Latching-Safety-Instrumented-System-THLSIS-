@@ -2,11 +2,6 @@
 
 **Temperature and Humidity Latching Safety Instrumented System (THLSIS) with N-Voter Confirmation Logic Based on Rust ESP-IDF on ESP32-S3 for X-Ray Room Environmental Safety Monitoring**  
 
-![LANGUAGE](https://img.shields.io/badge/Language-Rust-brown?style=flat-square)
-![HARDWARE](https://img.shields.io/badge/Hardware-ESP32--S3-blue?style=flat-square)
-![FRAMEWORK](https://img.shields.io/badge/Framework-ESP--IDF-grey?style=flat-square)
-![STATUS](https://img.shields.io/badge/Status-Operational-darkgreen?style=flat-square)
-
 ---
 
 ## Authors
