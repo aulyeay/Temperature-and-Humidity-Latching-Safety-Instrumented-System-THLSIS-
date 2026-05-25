@@ -209,4 +209,8 @@ This project was developed as a Midterm Exam submission for the Controller Progr
 
 ---
 
+## Report Document 
+
+https://drive.google.com/file/d/1bYgv_hGA-BcF0ss8jem0SplkBWwEgXxx/view?usp=sharing 
+
 *Institut Teknologi Sepuluh Nopember — Faculty of Vocation — Instrumentation Engineering — 2026*
